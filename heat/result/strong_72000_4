@@ -1,0 +1,18 @@
+[mba-c4:55367] *** Process received signal ***
+[mba-c4:55367] Signal: Segmentation fault (11)
+[mba-c4:55367] Signal code: Address not mapped (1)
+[mba-c4:55367] Failing at address: 0x1b5b000
+[mba-c4:55367] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f91c863d680]
+[mba-c4:55367] [ 1] ./mpi_heat[0x4094d9]
+[mba-c4:55367] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f91c82833d5]
+[mba-c4:55367] [ 3] ./mpi_heat[0x409867]
+[mba-c4:55367] *** End of error message ***
+[mba-c4:55366] *** Process received signal ***
+[mba-c4:55366] Signal: Segmentation fault (11)
+[mba-c4:55366] Signal code: Address not mapped (1)
+[mba-c4:55366] Failing at address: 0x251e000
+[mba-c4:55366] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f5b948cb680]
+[mba-c4:55366] [ 1] ./mpi_heat[0x4094d9]
+[mba-c4:55366] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f5b945113d5]
+[mba-c4:55366] [ 3] ./mpi_heat[0x409867]
+[mba-c4:55366] *** End of error message ***

@@ -1,0 +1,15 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 8 with PID 0 on node mba-c3.uncc.edu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+[mba-c5:106755] *** An error occurred in MPI_Isend
+[mba-c5:106755] *** reported by process [1435435009,81604378643]
+[mba-c5:106755] *** on communicator MPI_COMM_WORLD
+[mba-c5:106755] *** MPI_ERR_INTERN: internal error
+[mba-c5:106755] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[mba-c5:106755] ***    and potentially your MPI job)
+--------------------------------------------------------------------------
+mpirun noticed that process rank 14 with PID 0 on node mba-c4.uncc.edu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 6 with PID 0 on node mba-c3.uncc.edu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

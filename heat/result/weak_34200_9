@@ -1,0 +1,9 @@
+[mba-c5:106592] *** Process received signal ***
+[mba-c5:106592] Signal: Segmentation fault (11)
+[mba-c5:106592] Signal code: Address not mapped (1)
+[mba-c5:106592] Failing at address: 0xc3e000
+[mba-c5:106592] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f6c31605680]
+[mba-c5:106592] [ 1] ./mpi_heat[0x4094d9]
+[mba-c5:106592] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f6c3124b3d5]
+[mba-c5:106592] [ 3] ./mpi_heat[0x409867]
+[mba-c5:106592] *** End of error message ***

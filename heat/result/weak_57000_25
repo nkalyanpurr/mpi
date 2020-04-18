@@ -1,0 +1,37 @@
+[mba-c4:55396] *** Process received signal ***
+[mba-c4:55396] Signal: Segmentation fault (11)
+[mba-c4:55396] Signal code: Address not mapped (1)
+[mba-c4:55396] Failing at address: 0x1f42000
+[mba-c4:55396] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f884337c680]
+[mba-c4:55396] [ 1] ./mpi_heat[0x4094d9]
+[mba-c4:55396] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f8842fc23d5]
+[mba-c4:55396] [ 3] ./mpi_heat[0x409867]
+[mba-c4:55396] *** End of error message ***
+[mba-c6:31369] *** Process received signal ***
+[mba-c6:31369] Signal: Segmentation fault (11)
+[mba-c6:31369] Signal code: Address not mapped (1)
+[mba-c6:31369] Failing at address: 0x1f69000
+[mba-c6:31369] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fd2c80c3680]
+[mba-c6:31369] [ 1] ./mpi_heat[0x4094d9]
+[mba-c6:31369] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fd2c7d093d5]
+[mba-c6:31369] [ 3] ./mpi_heat[0x409867]
+[mba-c6:31369] *** End of error message ***
+[mba-c6:31371] *** Process received signal ***
+[mba-c6:31371] Signal: Segmentation fault (11)
+[mba-c6:31371] Signal code: Address not mapped (1)
+[mba-c6:31371] Failing at address: 0x1851000
+[mba-c6:31371] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fb8e82e3680]
+[mba-c6:31371] [ 1] ./mpi_heat[0x4094d9]
+[mba-c6:31371] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fb8e7f293d5]
+[mba-c6:31371] [ 3] ./mpi_heat[0x409867]
+[mba-c6:31371] *** End of error message ***
+[mba-c3][[21739,1],5][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+[mba-c3.uncc.edu:137198] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c3][[21739,1],9][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+[mba-c3.uncc.edu:137203] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c5][[21739,1],17][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+[mba-c5.uncc.edu:106658] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c6][[21739,1],23][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+[mba-c6.uncc.edu:31372] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c6][[21739,1],24][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+[mba-c6.uncc.edu:31374] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL

@@ -1,0 +1,9 @@
+[mba-c6:31425] *** Process received signal ***
+[mba-c6:31425] Signal: Segmentation fault (11)
+[mba-c6:31425] Signal code: Address not mapped (1)
+[mba-c6:31425] Failing at address: 0x121a000
+[mba-c6:31425] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f0193c77680]
+[mba-c6:31425] [ 1] ./mpi_heat[0x4094d9]
+[mba-c6:31425] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f01938bd3d5]
+[mba-c6:31425] [ 3] ./mpi_heat[0x409867]
+[mba-c6:31425] *** End of error message ***

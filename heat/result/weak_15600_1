@@ -1,0 +1,9 @@
+[mba-c2:18968] *** Process received signal ***
+[mba-c2:18968] Signal: Segmentation fault (11)
+[mba-c2:18968] Signal code: Address not mapped (1)
+[mba-c2:18968] Failing at address: 0x2151000
+[mba-c2:18968] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f9cd6f90680]
+[mba-c2:18968] [ 1] ./mpi_heat[0x40961d]
+[mba-c2:18968] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f9cd6bd63d5]
+[mba-c2:18968] [ 3] ./mpi_heat[0x409867]
+[mba-c2:18968] *** End of error message ***

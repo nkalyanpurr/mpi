@@ -1,0 +1,9 @@
+--------------------------------------------------------------------------
+mpirun noticed that process rank 3 with PID 0 on node mba-c4.uncc.edu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 7 with PID 0 on node mba-c5.uncc.edu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 6 with PID 0 on node mba-c5.uncc.edu exited on signal 11 (Segmentation fault).
+--------------------------------------------------------------------------

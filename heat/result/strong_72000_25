@@ -1,0 +1,96 @@
+[mba-c3:137302] *** Process received signal ***
+[mba-c3:137302] Signal: Segmentation fault (11)
+[mba-c3:137302] Signal code: Address not mapped (1)
+[mba-c3:137302] Failing at address: 0xcb5000
+[mba-c3:137302] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f5f99108680]
+[mba-c3:137302] [ 1] ./mpi_heat[0x4094d9]
+[mba-c3:137302] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f5f98d4e3d5]
+[mba-c3:137302] [ 3] ./mpi_heat[0x409867]
+[mba-c3:137302] *** End of error message ***
+[mba-c3:137303] *** Process received signal ***
+[mba-c3:137303] Signal: Segmentation fault (11)
+[mba-c3:137303] Signal code: Address not mapped (1)
+[mba-c3:137303] Failing at address: 0x216e000
+[mba-c3:137303] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fc548086680]
+[mba-c3:137303] [ 1] ./mpi_heat[0x4094d9]
+[mba-c3:137303] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fc547ccc3d5]
+[mba-c3:137303] [ 3] ./mpi_heat[0x409867]
+[mba-c3:137303] *** End of error message ***
+[mba-c4:55531] *** Process received signal ***
+[mba-c4:55531] Signal: Segmentation fault (11)
+[mba-c4:55531] Signal code: Address not mapped (1)
+[mba-c4:55531] Failing at address: 0x1f8e000
+[mba-c4:55531] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f4dd1a20680]
+[mba-c4:55531] [ 1] ./mpi_heat[0x4094d9]
+[mba-c4:55531] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f4dd16663d5]
+[mba-c4:55531] [ 3] ./mpi_heat[0x409867]
+[mba-c4:55531] *** End of error message ***
+[mba-c3:137308] *** Process received signal ***
+[mba-c3:137308] Signal: Segmentation fault (11)
+[mba-c3:137308] Signal code: Address not mapped (1)
+[mba-c3:137308] Failing at address: 0x1231000
+[mba-c3:137308] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fabc4eba680]
+[mba-c3:137308] [ 1] ./mpi_heat[0x4094d9]
+[mba-c3:137308] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fabc4b003d5]
+[mba-c3:137308] [ 3] ./mpi_heat[0x409867]
+[mba-c3:137308] *** End of error message ***
+[mba-c4:55536] *** Process received signal ***
+[mba-c4:55536] Signal: Segmentation fault (11)
+[mba-c4:55536] Signal code: Address not mapped (1)
+[mba-c4:55536] Failing at address: 0x1200000
+[mba-c5:106766] *** Process received signal ***
+[mba-c5:106766] Signal: Segmentation fault (11)
+[mba-c5:106766] Signal code: Address not mapped (1)
+[mba-c5:106766] Failing at address: 0x25dc000
+[mba-c6:31480] *** Process received signal ***
+[mba-c6:31480] Signal: Segmentation fault (11)
+[mba-c6:31480] Signal code: Address not mapped (1)
+[mba-c6:31480] Failing at address: 0xe78000
+[mba-c6:31480] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f1158a10680]
+[mba-c6:31480] [ 1] ./mpi_heat[0x4094d9]
+[mba-c6:31480] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f11586563d5]
+[mba-c6:31480] [ 3] ./mpi_heat[0x409867]
+[mba-c6:31480] *** End of error message ***
+[mba-c3][[21889,1],7][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+[mba-c3.uncc.edu:137304] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c4:55536] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7faefc0cc680]
+[mba-c4:55536] [ 1] [mba-c5:106766] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f3b98e27680]
+[mba-c5:106766] [ 1] ./mpi_heat[0x4094d9]
+[mba-c5:106766] ./mpi_heat[0x4094d9]
+[mba-c4:55536] [ 2] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f3b98a6d3d5]
+[mba-c5:106766] [ 3] ./mpi_heat[0x409867]
+[mba-c5:106766] *** End of error message ***
+[mba-c3][[21889,1],8][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_endpoint.c:618:mca_btl_tcp_endpoint_recv_blocking] recv(13, 0/8) failed: Connection reset by peer (104)
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7faefbd123d5]
+[mba-c4:55536] [ 3] ./mpi_heat[0x409867]
+[mba-c4:55536] *** End of error message ***
+[mba-c3.uncc.edu:137306] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c5:106768] *** Process received signal ***
+[mba-c5:106768] Signal: Segmentation fault (11)
+[mba-c5:106768] Signal code: Address not mapped (1)
+[mba-c5:106768] Failing at address: 0xa91000
+[mba-c5:106768] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fac34d4f680]
+[mba-c5:106768] [ 1] ./mpi_heat[0x4094d9]
+[mba-c5:106768] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fac349953d5]
+[mba-c5:106768] [ 3] ./mpi_heat[0x409867]
+[mba-c5:106768] *** End of error message ***
+[mba-c5.uncc.edu:106764] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c5:106765] *** Process received signal ***
+[mba-c5:106765] Signal: Segmentation fault (11)
+[mba-c5:106765] Signal code: Address not mapped (1)
+[mba-c5:106765] Failing at address: 0x1ab0000
+[mba-c5:106765] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f204e389680]
+[mba-c5:106765] [ 1] ./mpi_heat[0x4094d9]
+[mba-c5:106765] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f204dfcf3d5]
+[mba-c5:106765] [ 3] ./mpi_heat[0x409867]
+[mba-c5:106765] *** End of error message ***
+[mba-c5.uncc.edu:106763] ../../../../../../openmpi-1.10.0/ompi/mca/pml/ob1/pml_ob1_sendreq.c:188 FATAL
+[mba-c6:31481] *** Process received signal ***
+[mba-c6:31481] Signal: Segmentation fault (11)
+[mba-c6:31481] Signal code: Address not mapped (1)
+[mba-c6:31481] Failing at address: 0x1212000
+[mba-c6:31481] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7fce0c934680]
+[mba-c6:31481] [ 1] ./mpi_heat[0x4094d9]
+[mba-c6:31481] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7fce0c57a3d5]
+[mba-c6:31481] [ 3] ./mpi_heat[0x409867]
+[mba-c6:31481] *** End of error message ***

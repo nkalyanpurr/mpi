@@ -1,0 +1,19 @@
+[mba-c3:136980] *** Process received signal ***
+[mba-c3:136980] Signal: Segmentation fault (11)
+[mba-c3:136980] Signal code: Address not mapped (1)
+[mba-c3:136980] Failing at address: 0x16c5000
+[mba-c3:136980] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7facaef89680]
+[mba-c3:136980] [ 1] ./mpi_heat[0x4094d9]
+[mba-c3:136980] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7facaebcf3d5]
+[mba-c3:136980] [ 3] ./mpi_heat[0x409867]
+[mba-c3:136980] *** End of error message ***
+[mba-c2:18937] *** Process received signal ***
+[mba-c2:18937] Signal: Segmentation fault (11)
+[mba-c2:18937] Signal code: Address not mapped (1)
+[mba-c2:18937] Failing at address: 0x1555000
+[mba-c2:18937] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f2315287680]
+[mba-c2:18937] [ 1] ./mpi_heat[0x409318]
+[mba-c2:18937] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f2314ecd3d5]
+[mba-c2:18937] [ 3] ./mpi_heat[0x409867]
+[mba-c2:18937] *** End of error message ***
+[mba-c3][[22442,1],2][../../../../../../openmpi-1.10.0/ompi/mca/btl/tcp/btl_tcp_frag.c:237:mca_btl_tcp_frag_recv] mca_btl_tcp_frag_recv: readv failed: Connection reset by peer (104)

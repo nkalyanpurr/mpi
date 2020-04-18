@@ -1,0 +1,9 @@
+[mba-c3:137215] *** Process received signal ***
+[mba-c3:137215] Signal: Segmentation fault (11)
+[mba-c3:137215] Signal code: Invalid permissions (2)
+[mba-c3:137215] Failing at address: 0x7f9b1737c000
+[mba-c3:137215] [ 0] /lib64/libpthread.so.0(+0xf680)[0x7f9b1d891680]
+[mba-c3:137215] [ 1] ./mpi_heat[0x408a36]
+[mba-c3:137215] [ 2] /lib64/libc.so.6(__libc_start_main+0xf5)[0x7f9b1d4d73d5]
+[mba-c3:137215] [ 3] ./mpi_heat[0x409867]
+[mba-c3:137215] *** End of error message ***
